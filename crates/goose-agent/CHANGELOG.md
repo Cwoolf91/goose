@@ -7,6 +7,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0-alpha.15](https://github.com/Cwoolf91/goose/compare/gdk-v0.1.0-alpha.14...gdk-v0.1.0-alpha.15) - 2026-11-18
+
+### Added
+
+- *(oi-kit)* add SkillOperation and drop the Skills extension ([#13574](https://github.com/Cwoolf91/goose/pull/13574))
+
+### Fixed
+
+- *(agents)* recover from thinking-only provider turns instead of ending silently ([#12499](https://github.com/Cwoolf91/goose/pull/12499))
+
+### Other
+
+- *(goose-agent)* move the MCP extension runtime into goose-agent ([#13618](https://github.com/Cwoolf91/goose/pull/13618))
+- check tool calls once in inference and answer unhandled calls in goose-agent ([#13605](https://github.com/Cwoolf91/goose/pull/13605))
+
 ## [0.1.0-alpha.14](https://github.com/aaif-goose/goose/compare/gdk-v0.1.0-alpha.13...gdk-v0.1.0-alpha.14) - 2026-11-16
 
 ### Added
